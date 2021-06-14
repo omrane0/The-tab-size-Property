@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#t1 {
+  -moz-tab-size: 4; /* Firefox */
+  tab-size: 4;
+}
+
+#t2 {
+  -moz-tab-size: 16; /* Firefox */
+  tab-size: 16;
+}
+</style>
+</head>
+<body>
+
+<h1>The tab-size Property</h1>
+
+<pre id="t1">
+I	use	tab-size	4
+</pre>
+
+<pre id="t2">
+I	use	tab-size	16
+</pre>
+
+<p><strong>Note:</strong> Firefox supports an alternative, the -moz-tab-size property.</p>
+
+</body>
+</html>
+
+
+
+The tab-size Property
+I	use	tab-size	4
+I	use	tab-size	16
+Note: Firefox supports an alternative, the -moz-tab-size property.
